@@ -1,0 +1,54 @@
+body
+{
+    height: 100vh;
+    width: 100%;
+    background: repeating-linear-gradient(red,blue);
+}
+#qdiv
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150%;
+}
+#qimg
+{
+    opacity: 0.88;
+    
+    align-items: center;
+    
+    
+}
+
+#qmain
+{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#qpara
+{
+    color: rgb(21, 226, 234); 
+    font-size: larger;
+    
+}
+#qin
+{
+    width: 20%;
+    height: 5%;
+    font-size: 100%;
+}
+#buttons
+{
+    font-size: 20px;
+}
